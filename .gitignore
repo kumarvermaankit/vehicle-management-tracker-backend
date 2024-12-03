@@ -1,0 +1,66 @@
+# Python-related files
+*.pyc
+*.pyo
+__pycache__/
+*.pyd
+*.db
+*.sqlite3
+
+# Virtual environment directories
+venv/
+.env/
+.env.*
+
+# Django-specific files
+*.log
+*.pot
+*.pyc
+*.mo
+db.sqlite3   # If you're using SQLite (change this if using a different database)
+*.log
+*.pid
+*.gz
+
+# Media files (for user-uploaded content)
+media/
+
+# Static files (if you're not using version control for them)
+static/
+
+# Django migrations
+*/migrations/
+
+# VS Code specific
+.vscode/
+
+# macOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+
+# Local environment variables (e.g., .env file)
+.env
+
+# pytest cache
+.cache
+
+# Other files
+.idea/  # JetBrains IDEs like PyCharm
+*.coverage
+coverage.xml
+nosetests.xml
+*.cover
+*.hypothesis/
+
+# pipenv
+Pipfile.lock
+
+# tox, pyenv, virtualenv, etc.
+.nox/
+.coverage
+*.hypothesis/
+
+# Ignore test and coverage directories
+tests/.coverage
+tests/.tox
